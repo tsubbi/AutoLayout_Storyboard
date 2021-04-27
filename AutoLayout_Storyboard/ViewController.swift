@@ -9,9 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var topStackView: UIStackView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.topStackView.layer.borderWidth = 8
+        self.topStackView.layer.borderColor = UIColor.systemPink.cgColor
     }
 
 
